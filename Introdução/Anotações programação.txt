@@ -1,0 +1,216 @@
+Jogo Ovelha, Lobo e  Repolho
+
+Inicio do jogo
+- Ovelha entra no barco
+-Barco anda para frente
+- Ovelha sai do barco
+- Barco volta atrás
+-Repolho entra no braco
+- Barco anda para frente
+-Repolho sai do barco 
+-ovelha entra no barco
+-barco volta atrás
+-ovelha sai do barco
+-lobo entra no barco
+-barco anda para frente
+-lobo sai so barco
+-barco volta atras
+-ovelha antra no barco
+-barco anda para frente
+-ovelha sai do barco
+Fim do jogo
+_______________________________________
+Fluxograma:
+é uma ferramento utilizada para representar graficamente o algoritimo, isto é uma seguencia logica. 
+Ex: o inicio o meio e o fim de uma ferramenta, ou o inicio de uma tarefa  o que acontence na tarefa feita ate a finalização dela.
+____________________________________
+Variáveis:
+È um objeto uma posição,frequentemente localizada na memoria do computador destinado a uma dado que é alterado durante a execução do algoritimo.
+Ex: variavel 'aluno'
+EX:
+INICIO
+DECLARA nota 1: numero
+......
+........
+LEIA (nota 1)
+........
+...........
+media=(nota1+nota2......../4
+IMPRIMIR(media)
+FIM
+Ás variaveis e as constantes podem rser numericas,caracteries alfanumericas...
+____________________________________
+Constante:
+valores imutaveis que nunca mudan
+Ex: INICIO 
+DECLARA pi=3,14
+DECLARA raio:numero
+FIM
+_________________________________
+Expressões aritméticas:
+
+<--- atribução
+___________________________
+Expressões relacionais:
+Verdadeiro / Falso
+__________________________
+Tomadas de decisão
+-quando escrevemos programas geralmente ocorre a necissidade de decidir o que fazer dependendo de alguma condição.
+________________________________
+- Sempre que for inserir um texto no fluxograma colocar entre " .
+_______________________________
+Concatenação:
+-termo utilizado para unir o conteudo de duas strings( é uma sequencia de caracteres)
+ Ex: para juntar o caracterie nome com a saida o seu nome é . devemos colocar o simbolo (& nome). 
+_______________________________________
+Estruturas de repetição:
+  - aprender o que uma estrutura de repetição
+sendo a mesma uma estrutura que permite executar mais de uma vez o mesmo comando.
+Ex: promagamar um relatorio onde tem muitos cliente.
+____________________________________
+Linguagens de programação e Portugol:
+- é uma liguagen escrita formal que especifica um conjuto de regras usadas para gerar software.
+ - Cadeia= Caracterie
+________________________________________________________
+Desvios Condicionais 
+-Aplicação nas estruturas de decisão
+. quando a condição for verdadeira:
+" SE" utilizada para uma determinada função no cod.
+EX: se(media>=7){
+escreva("parabens!! voce foi aprovado")
+}
+
+Ex:{
+	
+	funcao inicio()
+	{
+	  real janeiro,fevereiro,marco,abril,venda,media
+	  cadeia Vendedor
+	  escreva("Digite o nome do Vendedor:")
+	  leia(Vendedor)
+	  escreva(" digite a venda de janeiro")
+	  leia(janeiro)
+	  escreva(" digite a venda de fevereiro")
+	  leia(fevereiro)
+	  escreva(" digite a venda de marco")
+	  leia(marco)
+	  escreva(" digite a venda de abril")
+	  leia(abril)
+
+	  venda = (janeiro+fevereiro+marco+abril)
+	  media = (janeiro+fevereiro+marco+abril)/4
+
+	  se(venda>=200){
+	  	escreva(" Sua  venda foi de:" + venda + "Parabéns!!! Voce bateu sua meta,portanto ira receber uma bonificação de 10%")
+
+	  	se(venda<=100) {
+	  		escreva(" Sua  venda foi de:" + venda + "Infelismente você não bateu a meta")
+	  	}
+	  }
+
+Quebra de linha no cod
+"/n" + 
+
+- senao= quando a condição for falso
+Ex:
+programa
+{
+	
+	funcao inicio()
+	{
+	  real janeiro,fevereiro,marco,abril,venda,media
+	  cadeia Vendedor
+	  escreva("Digite o nome do Vendedor:")
+	  leia(Vendedor)
+	  escreva(" digite a venda de janeiro")
+	  leia(janeiro)
+	  escreva(" digite a venda de fevereiro")
+	  leia(fevereiro)
+	  escreva(" digite a venda de marco")
+	  leia(marco)
+	  escreva(" digite a venda de abril")
+	  leia(abril)
+
+	  venda = (janeiro+fevereiro+marco+abril)
+	  media = (janeiro+fevereiro+marco+abril)/4
+
+	  escreva("O nome do vendedor é:"  + Vendedor + "\n"+ " a sua venda foi de" + venda + "\n" + " e a media da venda foi de:" + media)
+	  
+       se(venda>=1000) {
+       	escreva("\n" + "Parabéns!!")
+       }
+
+       senao {
+       	escreva("\n" + "infelismente você não bateu a sua meta")
+       }
+____________________________________________________________________
+Boas práticas na programação
+-Comentários no cod
+Ex:
+//Função do Algoritmo:Calcular Venda total e Media da venda
+// Autor: Lorrayne Silva
+Quem for pegar o sue codigo vai saber para que serve.
+_______________________________________________________
+Desvio condicional-CASO
+- Reduz a complexidade na escolha de diversas opções
+_______________________________________________--
+Laços de reptições
+- permite executar mais de uma vez o comando ou o mesmo comando
+contador=0
+limite=10
+contador ++ = contador +1
+__________________________________________________
+Matriz e Vetores:
+-coleção de variavel do mesmo tipo com um unico nome.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia frutas[4] // Declara um vetor de 4 posições.
+          inteiro contador = 0
+		
+		frutas[0]= "Maça"
+		frutas[1]= "Pêra"
+		frutas[2]= "Uva"
+
+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
+Token
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
